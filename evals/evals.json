@@ -1,0 +1,35 @@
+{
+  "skill_name": "bilingual-excel-sync",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我有一个发货清单.xlsx文件，需要制作成中英双语版本，并同步生成纯英文的SHEET2工作表",
+      "expected_output": "生成发货清单_中英双语版.xlsx，包含Sheet1双语版和Sheet2纯英文版",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "将这个Excel表格翻译成中英双语，同时要有一个单独的纯英文工作表",
+      "expected_output": "生成双语版Excel文件，SHEET1为中英双语格式，SHEET2为纯英文格式",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我做外贸的，需要把中文表格做成中英文对照的版本，还要同步更新英文表",
+      "expected_output": "生成中英双语版Excel文件，并保持SHEET1和SHEET2的同步更新",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "表格中的'项目名称'需要翻译成'Project Name'，'状态'翻译成'Status'",
+      "expected_output": "根据提供的翻译字典进行精确翻译，保持原有格式",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "更新SHEET1中的中文内容后，SHEET2的英文内容也要同步更新",
+      "expected_output": "SHEET1更新后，自动同步更新SHEET2的纯英文内容",
+      "files": []
+    }
+  ]
+}

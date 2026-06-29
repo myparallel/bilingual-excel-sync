@@ -1,0 +1,638 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Set default charset
+[*.{py,pyw}]
+charset = utf-8
+
+# 4 space indentation
+[*.py]
+indent_style = space
+indent_size = 4
+
+# Tab indentation (no size specification)
+[Makefile]
+indent_style = tab
+
+# Indentation override for all JS/TS files
+[*.{js,jsx,ts,tsx}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all CSS files
+[*.{css,scss}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all HTML files
+[*.{html,htm}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all JSON files
+[*.json]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all YAML files
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Markdown files
+[*.md]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all TOML files
+[*.toml]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all INI files
+[*.{ini,cfg}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all shell scripts
+[*.{sh,bash}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all PowerShell scripts
+[*.{ps1,psm1}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all batch scripts
+[*.{bat,cmd}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all SQL files
+[*.sql]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all XML files
+[*.xml]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all config files
+[*.{conf,config}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all text files
+[*.txt]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all log files
+[*.log]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Excel files
+[*.{xlsx,xlsm,xls}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Word files
+[*.{docx,doc}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all PowerPoint files
+[*.{pptx,ppt}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all PDF files
+[*.pdf]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all image files
+[*.{png,jpg,jpeg,gif,svg,ico}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all font files
+[*.{ttf,otf,woff,woff2}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all archive files
+[*.{zip,tar,gz,rar,7z}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all executable files
+[*.{exe,dll,so,dylib}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all library files
+[*.{lib,a,o,obj}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all header files
+[*.{h,hpp,hxx}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all source files
+[*.{c,cpp,cxx,cc}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all assembly files
+[*.{asm,s}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Fortran files
+[*.{f,f90,f95,f03,f08}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all COBOL files
+[*.{cob,cbl}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Pascal files
+[*.{pas,pp}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Ada files
+[*.{adb,ads}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Lisp files
+[*.{lisp,lsp,cl,el}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Scheme files
+[*.{scm,ss}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Haskell files
+[*.{hs,lhs}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Erlang files
+[*.{erl,hrl}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Elixir files
+[*.{ex,exs}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Clojure files
+[*.{clj,cljs,cljc}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Scala files
+[*.{scala,sbt}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Kotlin files
+[*.{kt,kts}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Swift files
+[*.swift]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Rust files
+[*.rs]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Go files
+[*.go]
+indent_style = tab
+indent_size = 4
+
+# Indentation override for all Lua files
+[*.lua]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all R files
+[*.r,R]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all MATLAB files
+[*.{m,fig}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Octave files
+[*.m]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Julia files
+[*.jl]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Dart files
+[*.dart]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all TypeScript files
+[*.ts]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all JavaScript files
+[*.js]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all CoffeeScript files
+[*.{coffee,cake}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all LiveScript files
+[*.ls]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all ActionScript files
+[*.{as,mxml}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Haxe files
+[*.hx]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all TypeScript JSX files
+[*.tsx]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all JavaScript JSX files
+[*.jsx]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Vue files
+[*.vue]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Svelte files
+[*.svelte]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Astro files
+[*.astro]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all MDX files
+[*.mdx]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all YAML files
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all TOML files
+[*.toml]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all INI files
+[*.{ini,cfg}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all properties files
+[*.properties]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all XML files
+[*.xml]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all SVG files
+[*.svg]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all HTML files
+[*.{html,htm}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all CSS files
+[*.{css,scss,sass,less}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Markdown files
+[*.md]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all text files
+[*.txt]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all JSON files
+[*.json]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all JSON5 files
+[*.json5]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all JSONC files
+[*.jsonc]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all JSONL files
+[*.jsonl]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all NDJSON files
+[*.ndjson]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all CSV files
+[*.csv]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all TSV files
+[*.tsv]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Excel files
+[*.{xlsx,xlsm,xls}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Word files
+[*.{docx,doc}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all PowerPoint files
+[*.{pptx,ppt}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all PDF files
+[*.pdf]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all image files
+[*.{png,jpg,jpeg,gif,svg,ico}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all font files
+[*.{ttf,otf,woff,woff2}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all archive files
+[*.{zip,tar,gz,rar,7z}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all executable files
+[*.{exe,dll,so,dylib}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all library files
+[*.{lib,a,o,obj}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all header files
+[*.{h,hpp,hxx}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all source files
+[*.{c,cpp,cxx,cc}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all assembly files
+[*.{asm,s}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Fortran files
+[*.{f,f90,f95,f03,f08}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all COBOL files
+[*.{cob,cbl}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Pascal files
+[*.{pas,pp}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Ada files
+[*.{adb,ads}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Lisp files
+[*.{lisp,lsp,cl,el}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Scheme files
+[*.{scm,ss}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Haskell files
+[*.{hs,lhs}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Erlang files
+[*.{erl,hrl}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Elixir files
+[*.{ex,exs}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Clojure files
+[*.{clj,cljs,cljc}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Scala files
+[*.{scala,sbt}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Kotlin files
+[*.{kt,kts}]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Swift files
+[*.swift]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Rust files
+[*.rs]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Go files
+[*.go]
+indent_style = tab
+indent_size = 4
+
+# Indentation override for all Lua files
+[*.lua]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all R files
+[*.r,R]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all MATLAB files
+[*.{m,fig}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Octave files
+[*.m]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Julia files
+[*.jl]
+indent_style = space
+indent_size = 4
+
+# Indentation override for all Dart files
+[*.dart]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all TypeScript files
+[*.ts]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all JavaScript files
+[*.js]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all CoffeeScript files
+[*.{coffee,cake}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all LiveScript files
+[*.ls]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all ActionScript files
+[*.{as,mxml}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Haxe files
+[*.hx]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all TypeScript JSX files
+[*.tsx]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all JavaScript JSX files
+[*.jsx]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Vue files
+[*.vue]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Svelte files
+[*.svelte]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all Astro files
+[*.astro]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all MDX files
+[*.mdx]
+indent_style = space
+indent_size = 2

@@ -1,0 +1,76 @@
+{
+  "name": "bilingual-excel-sync",
+  "version": "1.0.0",
+  "description": "将中文Excel表格转换为中英双语版本，并同步生成纯英文SHEET2工作表",
+  "author": "OpenCode",
+  "license": "MIT",
+  "dependencies": [
+    "openpyxl>=3.0.0"
+  ],
+  "python_requires": ">=3.6",
+  "keywords": [
+    "excel",
+    "bilingual",
+    "translation",
+    "english",
+    "chinese",
+    "spreadsheet",
+    "外贸",
+    "双语",
+    "翻译"
+  ],
+  "categories": [
+    "productivity",
+    "translation",
+    "business"
+  ],
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "USAGE.md",
+    "INSTALL.md",
+    "demo.py",
+    "test_skill.py",
+    "test_cases.py",
+    "config.json",
+    "evals/evals.json",
+    "scripts/bilingual_excel_sync.py"
+  ],
+  "scripts": {
+    "demo": "python demo.py",
+    "test": "python test_skill.py",
+    "test-all": "python test_cases.py",
+    "analyze": "python scripts/bilingual_excel_sync.py analyze",
+    "convert": "python scripts/bilingual_excel_sync.py convert",
+    "verify": "python scripts/bilingual_excel_sync.py verify"
+  },
+  "examples": [
+    {
+      "description": "将发货清单转换为双语版本",
+      "command": "python scripts/bilingual_excel_sync.py convert 发货清单.xlsx",
+      "output": "发货清单_中英双语版.xlsx"
+    },
+    {
+      "description": "分析Excel文件内容",
+      "command": "python scripts/bilingual_excel_sync.py analyze 发货清单.xlsx analysis.txt",
+      "output": "analysis.txt"
+    },
+    {
+      "description": "验证双语表格翻译完整性",
+      "command": "python scripts/bilingual_excel_sync.py verify 发货清单_中英双语版.xlsx verification.txt",
+      "output": "verification.txt"
+    }
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2024-01-01",
+      "changes": [
+        "初始版本",
+        "支持双语转换",
+        "支持同步生成纯英文SHEET2",
+        "内置常用翻译字典"
+      ]
+    }
+  ]
+}
